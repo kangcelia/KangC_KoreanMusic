@@ -21,6 +21,201 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/deploy\/img\/genre\/genre.jpg" : {
+      "ft" : 16384,
+      "iS" : 184692,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/genre\/genre.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/hero\/hero.jpg" : {
+      "ft" : 16384,
+      "iS" : 268824,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/hero\/hero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/history\/history.jpg" : {
+      "ft" : 16384,
+      "iS" : 453933,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/history\/history.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/info\/info1.jpg" : {
+      "ft" : 16384,
+      "iS" : 62124,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/info\/info1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/info\/info2.jpg" : {
+      "ft" : 16384,
+      "iS" : 79091,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/info\/info2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/join\/join.jpg" : {
+      "ft" : 16384,
+      "iS" : 105884,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/join\/join.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/news\/big.jpg" : {
+      "ft" : 16384,
+      "iS" : 14964,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/news\/big.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/news\/hsr.jpg" : {
+      "ft" : 16384,
+      "iS" : 9942,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/news\/hsr.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/news\/lilac.jpg" : {
+      "ft" : 16384,
+      "iS" : 12674,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/news\/lilac.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/recs\/akmu.jpg" : {
+      "ft" : 16384,
+      "iS" : 49248,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/recs\/akmu.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/recs\/bluetape.jpg" : {
+      "ft" : 16384,
+      "iS" : 42751,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/recs\/bluetape.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/recs\/gd.jpg" : {
+      "ft" : 16384,
+      "iS" : 17412,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/recs\/gd.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/recs\/heize.jpg" : {
+      "ft" : 16384,
+      "iS" : 52929,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/recs\/heize.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/recs\/iu.jpg" : {
+      "ft" : 16384,
+      "iS" : 38268,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/recs\/iu.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/recs\/jyp.jpg" : {
+      "ft" : 16384,
+      "iS" : 59453,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/recs\/jyp.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -39,6 +234,86 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/design\/KangCelia_FinalProject-2.sketch" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/design\/KangCelia_FinalProject-2.sketch",
+      "oF" : 0
+    },
+    "\/dev\/content\/_footer.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/_footer.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/_genre.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/_genre.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/_header.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/_header.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/_hero.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/_hero.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/_history.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/_history.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/_info.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/_info.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/_join.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/_join.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/_news.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/_news.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/_recs.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/_recs.html",
+      "oF" : 0
     },
     "\/dev\/global\/head.kit" : {
       "cB" : 0,
@@ -65,7 +340,7 @@
       "oF" : 2
     },
     "\/dev\/js\/scripts.js" : {
-      "bF" : 0,
+      "bF" : 4,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
@@ -228,6 +503,47 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/node_modules" : {
+      "ft" : 65536,
+      "oA" : 2,
+      "oAP" : "\/node_modules",
+      "oF" : 0
+    },
+    "\/package-lock.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/package-lock-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/package.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/package-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/README.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/README.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
     }
   },
   "hooks" : [
@@ -238,7 +554,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 638898965.76008201,
-    "displayValue" : "in-class-demo",
+    "displayValue" : "KangC_KoreanMusic",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-koamaru",
     "iconImageWasSetByUser" : 0
@@ -684,7 +1000,7 @@
     ],
     "esLintConfigFileHandlingType" : 0,
     "esLintECMAVersion" : 7,
-    "esLintEnvironmentsMask" : 1,
+    "esLintEnvironmentsMask" : 8193,
     "esLintRules" : {
       "accessor-pairs" : {
         "active" : 0,
@@ -998,7 +1314,7 @@
         "optionString" : "{'allowParens': true}"
       },
       "no-console" : {
-        "active" : 1,
+        "active" : 0,
         "optionString" : "{'allow': ['warn', 'error']}"
       },
       "no-const-assign" : {
