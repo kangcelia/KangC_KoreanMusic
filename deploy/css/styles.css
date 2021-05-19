@@ -365,6 +365,11 @@ ul li {
   list-style: none;
 }
 
+main {
+  display: grid;
+  grid-template-areas: "header" "hero" "history" "info" "genre" "recs" "news" "join" "footer";
+}
+
 /* =============
     Typography
 ============= */
