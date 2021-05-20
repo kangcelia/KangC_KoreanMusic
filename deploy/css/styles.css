@@ -445,6 +445,9 @@ main {
     grid-gap: 70px;
     justify-content: center;
   }
+  .info .left {
+    padding-top: 200px;
+  }
   .info .left img {
     width: 300px;
     float: left;
@@ -457,6 +460,47 @@ main {
     float: right;
   }
   .info .right .right-text {
+    display: inline;
+  }
+}
+
+.genre {
+  grid-area: genre;
+}
+.genre img {
+  width: 100%;
+}
+.genre ul {
+  display: grid;
+}
+@media (min-width: 768px) {
+  .genre img {
+    padding-top: 200px;
+  }
+  .genre h2 {
+    text-align: center;
+    padding-top: 50px;
+  }
+  .genre ul {
+    grid-template-columns: 600px;
+    grid-gap: 70px;
+    justify-content: center;
+  }
+  .genre .first .kpop {
+    width: 300px;
+    float: left;
+  }
+  .genre .first .indie {
+    display: inline;
+  }
+  .genre .last {
+    padding-bottom: 200px;
+  }
+  .genre .last .khh {
+    width: 300px;
+    float: left;
+  }
+  .genre .last .trot {
     display: inline;
   }
 }

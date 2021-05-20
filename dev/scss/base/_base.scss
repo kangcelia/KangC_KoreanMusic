@@ -115,6 +115,7 @@ main {
 		}
 
 		.left {
+			padding-top: 200px;
 			img {
 				width: 300px;
 				float: left;
@@ -132,6 +133,56 @@ main {
 			.right-text {
 				display: inline;
 			}
+		}
+	}
+}
+
+.genre {
+	grid-area: genre;
+
+	img {
+		width: 100%;
+	}
+
+	ul {
+		display: grid;
+	}
+
+	@include md {
+		img {
+			padding-top: 200px;
+		}
+
+		h2 {
+			text-align: center;
+			padding-top: 50px;
+		}
+	
+		ul {
+			grid-template-columns: 600px;
+			grid-gap: 70px;
+			justify-content: center;
+		}
+
+		.first {
+			.kpop {
+				width: 300px;
+				float: left;
+			}
+			.indie {
+				display: inline;
+			}
+		}
+
+		.last {
+			.khh {
+				width: 300px;
+				float: left;
+			}
+			.trot {
+				display: inline;
+			}
+			padding-bottom: 200px;
 		}
 	}
 }
