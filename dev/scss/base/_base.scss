@@ -31,6 +31,15 @@ main {
 
 .header {
 	grid-area: header;
+
+	@include md {
+		text-align: center;
+
+		.title {
+			padding-top: 100px;
+			padding-bottom: 30px;
+		}
+	}
 }
 
 .hero {
@@ -54,6 +63,39 @@ main {
 
 		.beginning2 {
 			padding-bottom: 100px;
+		}
+	}
+}
+
+.history {
+	grid-area: history;
+
+	img {
+		width: 100%;
+	}
+
+	ul {
+		display: grid;
+	}
+
+	@include md {
+		.night {
+			position: relative;
+			width: 100%
+		}
+
+		.history1 {
+			position: absolute;
+			top: 200px;
+			left: 200px;
+			width: 50%
+		}
+
+		.history2 {
+			position: absolute;
+			top: 500px;
+			left: 200px;
+			width: 50%
 		}
 	}
 }

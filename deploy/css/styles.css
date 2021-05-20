@@ -373,6 +373,15 @@ main {
 .header {
   grid-area: header;
 }
+@media (min-width: 768px) {
+  .header {
+    text-align: center;
+  }
+  .header .title {
+    padding-top: 100px;
+    padding-bottom: 30px;
+  }
+}
 
 .hero {
   grid-area: hero;
@@ -393,6 +402,34 @@ main {
   }
   .hero .beginning2 {
     padding-bottom: 100px;
+  }
+}
+
+.history {
+  grid-area: history;
+}
+.history img {
+  width: 100%;
+}
+.history ul {
+  display: grid;
+}
+@media (min-width: 768px) {
+  .history .night {
+    position: relative;
+    width: 100%;
+  }
+  .history .history1 {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    width: 50%;
+  }
+  .history .history2 {
+    position: absolute;
+    top: 500px;
+    left: 200px;
+    width: 50%;
   }
 }
 
