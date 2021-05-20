@@ -573,6 +573,54 @@ main {
   }
 }
 
+.news {
+  grid-area: news;
+}
+.news ul {
+  display: grid;
+}
+@media (min-width: 768px) {
+  .news h2 {
+    padding-top: 200px;
+    text-align: center;
+  }
+  .news ul {
+    grid-template-columns: 1100px;
+    grid-gap: 10px;
+    justify-content: center;
+  }
+  .news .lilac {
+    padding-top: 40px;
+  }
+  .news .lilac img {
+    width: 300px;
+    float: left;
+  }
+  .news .lilac .lilac-text {
+    text-align: right;
+  }
+  .news .hsr {
+    padding-top: 20px;
+  }
+  .news .hsr img {
+    width: 300px;
+    float: left;
+  }
+  .news .hsr .hsr-text {
+    text-align: right;
+  }
+  .news .big {
+    padding-top: 20px;
+  }
+  .news .big img {
+    width: 300px;
+    float: left;
+  }
+  .news .big .big-text {
+    text-align: right;
+  }
+}
+
 /* =============
     Typography
 ============= */

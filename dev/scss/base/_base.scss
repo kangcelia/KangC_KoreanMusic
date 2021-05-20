@@ -270,3 +270,58 @@ main {
 		}
 	}
 }
+
+.news {
+	grid-area: news;
+
+	ul {
+		display: grid;
+	}
+
+	@include md {
+
+		h2 {
+			padding-top: 200px;
+			text-align: center;
+		}
+
+		ul {
+			grid-template-columns: 1100px;
+			grid-gap: 10px;
+			justify-content: center;
+		}
+
+		.lilac {
+			padding-top: 40px;
+			img {
+				width: 300px;
+				float: left;
+			}
+			.lilac-text {
+				text-align: right;
+			}
+		}
+
+		.hsr {
+			padding-top: 20px;
+			img {
+				width: 300px;
+				float: left;
+			}
+			.hsr-text {
+				text-align: right;
+			}
+		}
+
+		.big {
+			padding-top: 20px;
+			img {
+				width: 300px;
+				float: left;
+			}
+			.big-text {
+				text-align: right;
+			}
+		}
+	}
+}
