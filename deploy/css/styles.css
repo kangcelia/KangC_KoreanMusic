@@ -539,6 +539,40 @@ main {
   }
 }
 
+.perfect {
+  grid-area: recs;
+}
+.perfect ul {
+  display: grid;
+}
+@media (min-width: 768px) {
+  .perfect h2 {
+    text-align: center;
+    padding-top: 500px;
+  }
+  .perfect p {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+  .perfect ul {
+    grid-template-columns: 1000px;
+    grid-gap: 30px;
+    justify-content: center;
+  }
+  .perfect .perfect1 .iu {
+    width: 330px;
+    float: left;
+  }
+  .perfect .perfect1 .gd {
+    width: 330px;
+    float: left;
+  }
+  .perfect .perfect1 .akmu {
+    display: inline;
+  }
+}
+
 /* =============
     Typography
 ============= */

@@ -228,3 +228,45 @@ main {
 		}
 	}
 }
+
+.perfect {
+	grid-area: recs;
+
+	ul {
+		display: grid;
+	}
+
+	@include md {
+		h2 {
+			text-align: center;
+			padding-top: 500px;
+		}
+
+		p {
+			text-align: center;
+			padding-top: 10px;
+			padding-bottom: 30px;
+		}
+
+		ul {
+			grid-template-columns: 1000px;
+			grid-gap: 30px;
+			justify-content: center;
+		}
+
+		.perfect1 {
+			.iu {
+				width: 330px;
+				float: left;
+			}
+			.gd {
+				width: 330px;
+				float: left;
+			}
+
+			.akmu {
+				display: inline;
+			}
+		}
+	}
+}
