@@ -28,3 +28,32 @@ main {
 		"join"
 		"footer"
 }
+
+.header {
+	grid-area: header;
+}
+
+.hero {
+	grid-area: hero;
+
+	img {
+		width: 100%;
+	}
+
+	ul {
+		display: grid;
+	}
+
+	@include md {
+		text-align: center;
+
+		.beginning1 {
+			padding-top: 100px;
+			padding-bottom: 30px;
+		}
+
+		.beginning2 {
+			padding-bottom: 100px;
+		}
+	}
+}

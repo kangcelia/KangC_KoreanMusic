@@ -370,6 +370,32 @@ main {
   grid-template-areas: "header" "hero" "history" "info" "genre" "recs" "news" "join" "footer";
 }
 
+.header {
+  grid-area: header;
+}
+
+.hero {
+  grid-area: hero;
+}
+.hero img {
+  width: 100%;
+}
+.hero ul {
+  display: grid;
+}
+@media (min-width: 768px) {
+  .hero {
+    text-align: center;
+  }
+  .hero .beginning1 {
+    padding-top: 100px;
+    padding-bottom: 30px;
+  }
+  .hero .beginning2 {
+    padding-bottom: 100px;
+  }
+}
+
 /* =============
     Typography
 ============= */
