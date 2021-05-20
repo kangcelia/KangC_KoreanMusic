@@ -83,7 +83,7 @@ main {
 			position: relative;
 			width: 100%
 		}
-
+		
 		.history1 {
 			position: absolute;
 			top: 200px;
@@ -96,6 +96,42 @@ main {
 			top: 500px;
 			left: 200px;
 			width: 50%
+		}
+	}
+}
+
+.info {
+	grid-area: info;
+
+	ul {
+		display: grid;
+	}
+
+	@include md {
+		ul{
+			grid-template-columns: 700px;
+			grid-gap: 70px;
+			justify-content: center;
+		}
+
+		.left {
+			img {
+				width: 300px;
+				float: left;
+			}
+			.left-text {
+				display: inline;
+			}
+		}
+
+		.right {
+			img {
+				width: 300px;
+				float: right;
+			}
+			.right-text {
+				display: inline;
+			}
 		}
 	}
 }

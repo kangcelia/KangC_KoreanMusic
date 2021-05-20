@@ -433,6 +433,34 @@ main {
   }
 }
 
+.info {
+  grid-area: info;
+}
+.info ul {
+  display: grid;
+}
+@media (min-width: 768px) {
+  .info ul {
+    grid-template-columns: 700px;
+    grid-gap: 70px;
+    justify-content: center;
+  }
+  .info .left img {
+    width: 300px;
+    float: left;
+  }
+  .info .left .left-text {
+    display: inline;
+  }
+  .info .right img {
+    width: 300px;
+    float: right;
+  }
+  .info .right .right-text {
+    display: inline;
+  }
+}
+
 /* =============
     Typography
 ============= */
