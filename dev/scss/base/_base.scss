@@ -325,3 +325,26 @@ main {
 		}
 	}
 }
+
+.join {
+	grid-area: join;
+
+	img {
+		width: 100%;
+	}
+
+	@include md {
+		.join-img {
+			padding-top: 300px;
+			position: relative;
+			width: 100%
+		}
+
+		.community {
+			position: absolute;
+			top: 500px;
+			left: 500px;
+			width: 500px;
+		}
+	}
+}

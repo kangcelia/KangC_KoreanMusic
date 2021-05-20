@@ -621,6 +621,26 @@ main {
   }
 }
 
+.join {
+  grid-area: join;
+}
+.join img {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .join .join-img {
+    padding-top: 300px;
+    position: relative;
+    width: 100%;
+  }
+  .join .community {
+    position: absolute;
+    top: 500px;
+    left: 500px;
+    width: 500px;
+  }
+}
+
 /* =============
     Typography
 ============= */
