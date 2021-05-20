@@ -494,7 +494,7 @@ main {
     display: inline;
   }
   .genre .last {
-    padding-bottom: 200px;
+    padding-bottom: 100px;
   }
   .genre .last .khh {
     width: 300px;
@@ -511,6 +511,34 @@ main {
 .recs ul {
   display: grid;
 }
+@media (min-width: 768px) {
+  .recs h2 {
+    text-align: center;
+    padding-top: 50px;
+  }
+  .recs p {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+  .recs ul {
+    grid-template-columns: 1000px;
+    grid-gap: 30px;
+    justify-content: center;
+  }
+  .recs .recs1 .jyp {
+    width: 330px;
+    float: left;
+  }
+  .recs .recs1 .bluetape {
+    width: 330px;
+    float: left;
+  }
+  .recs .recs1 .heize {
+    display: inline;
+  }
+}
+
 /* =============
     Typography
 ============= */
