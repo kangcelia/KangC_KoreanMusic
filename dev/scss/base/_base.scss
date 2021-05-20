@@ -186,3 +186,15 @@ main {
 		}
 	}
 }
+
+.recs {
+	grid-area: recs;
+
+	ul {
+		display: grid;
+	}
+
+	@include md {
+		
+	}
+}

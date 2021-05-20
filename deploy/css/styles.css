@@ -505,6 +505,12 @@ main {
   }
 }
 
+.recs {
+  grid-area: recs;
+}
+.recs ul {
+  display: grid;
+}
 /* =============
     Typography
 ============= */
