@@ -641,6 +641,32 @@ main {
   }
 }
 
+.footer {
+  grid-area: footer;
+}
+.footer ul {
+  display: grid;
+}
+@media (min-width: 768px) {
+  .footer ul {
+    grid-template-columns: 1500px;
+    justify-content: center;
+  }
+  .footer .thanks h2 {
+    text-align: left;
+    padding-top: 100px;
+  }
+  .footer .find h2 {
+    text-align: center;
+  }
+  .footer .find address {
+    text-align: center;
+  }
+  .footer .socials h2 {
+    text-align: right;
+  }
+}
+
 /* =============
     Typography
 ============= */

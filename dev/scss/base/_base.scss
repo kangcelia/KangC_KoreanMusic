@@ -348,3 +348,41 @@ main {
 		}
 	}
 }
+
+.footer {
+    grid-area: footer;
+
+    ul {
+        display: grid;
+    }
+
+    @include md {
+
+        ul {
+            grid-template-columns: 1500px;
+            justify-content: center;
+        }
+
+		.thanks {
+			h2 {
+				text-align: left;
+				padding-top: 100px;
+			}
+		}
+
+        .find {
+            h2 {
+				text-align: center;
+			}
+			address {
+				text-align: center;
+			}
+        }
+
+		.socials {
+			h2 {
+				text-align: right;
+			}
+		}
+    }
+}
