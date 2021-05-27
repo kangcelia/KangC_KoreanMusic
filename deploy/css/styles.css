@@ -474,9 +474,6 @@ main {
   display: grid;
 }
 @media (min-width: 768px) {
-  .genre img {
-    padding-top: 200px;
-  }
   .genre h2 {
     text-align: center;
     padding-top: 50px;
@@ -696,6 +693,16 @@ p {
 
 .history .night {
   background: url("../../../deploy/img/history/history.jpg");
+  background-size: cover;
+  height: 70vh;
+  width: 100%;
+}
+
+.genre {
+  padding-top: 200px;
+}
+.genre .genre-img {
+  background: url("../../../deploy/img/genre/genre.jpg");
   background-size: cover;
   height: 70vh;
   width: 100%;
