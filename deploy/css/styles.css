@@ -687,6 +687,9 @@ p {
   font-weight: 300;
 }
 
-.hero-img {
+.hero .hero-img {
   background: url("../../../deploy/img/hero/hero.jpg");
+  background-size: cover;
+  height: 65vh;
+  width: 100%;
 }
