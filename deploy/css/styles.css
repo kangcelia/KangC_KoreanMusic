@@ -707,3 +707,13 @@ p {
   height: 70vh;
   width: 100%;
 }
+
+.join {
+  padding-top: 200px;
+}
+.join .join-img {
+  background: url("../../../deploy/img/join/join.jpg");
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+}
