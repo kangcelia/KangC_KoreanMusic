@@ -693,3 +693,10 @@ p {
   height: 65vh;
   width: 100%;
 }
+
+.history .night {
+  background: url("../../../deploy/img/history/history.jpg");
+  background-size: cover;
+  height: 70vh;
+  width: 100%;
+}
