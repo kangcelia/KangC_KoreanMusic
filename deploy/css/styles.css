@@ -667,9 +667,18 @@ main {
 /* =============
     Typography
 ============= */
-h1,
-h2,
-h3,
+h1 {
+  font-family: "Poppins", sans-serif;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+}
+
 h4 {
   margin: 0;
   padding: 0;
@@ -678,6 +687,7 @@ h4 {
 p {
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 .section-title {
