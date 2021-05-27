@@ -264,6 +264,7 @@ main {
 			.akmu {
 				display: inline;
 			}
+			padding-bottom: 200px;
 		}
 	}
 }
@@ -278,7 +279,6 @@ main {
 	@include md {
 
 		h2 {
-			padding-top: 200px;
 			text-align: center;
 		}
 

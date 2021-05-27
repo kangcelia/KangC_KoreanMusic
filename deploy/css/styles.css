@@ -557,6 +557,9 @@ main {
     grid-gap: 30px;
     justify-content: center;
   }
+  .perfect .perfect1 {
+    padding-bottom: 200px;
+  }
   .perfect .perfect1 .iu {
     width: 330px;
     float: left;
@@ -578,7 +581,6 @@ main {
 }
 @media (min-width: 768px) {
   .news h2 {
-    padding-top: 200px;
     text-align: center;
   }
   .news ul {
@@ -694,6 +696,14 @@ p {
   font-weight: 300;
 }
 
+.header {
+  background: #7777E9;
+}
+
+.footer {
+  background: #7777E9;
+}
+
 .hero .hero-img {
   background: url("../../../deploy/img/hero/hero.jpg");
   background-size: cover;
@@ -708,14 +718,19 @@ p {
   width: 100%;
 }
 
-.left .info1-img {
+.info {
+  background: #DDDDFF;
+}
+.info .left .info1-img {
   background: url("../../../deploy/img/info/info1.jpg") no-repeat;
   background-size: cover;
   width: 350px;
   height: 400px;
 }
-
-.right .info2-img {
+.info .right {
+  padding-bottom: 200px;
+}
+.info .right .info2-img {
   background: url("../../../deploy/img/info/info2.jpg") no-repeat;
   background-size: cover;
   width: 350px;
@@ -723,18 +738,21 @@ p {
 }
 
 .genre {
-  padding-top: 200px;
+  background: #7777E9;
 }
 .genre .genre-img {
   background: url("../../../deploy/img/genre/genre.jpg");
   background-size: cover;
   height: 70vh;
   width: 100%;
-}
-
-.join {
   padding-top: 200px;
 }
+
+.news {
+  background: #DDDDFF;
+  padding-bottom: 200px;
+}
+
 .join .join-img {
   background: url("../../../deploy/img/join/join.jpg");
   background-size: cover;
