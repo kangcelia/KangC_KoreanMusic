@@ -558,7 +558,7 @@ main {
     justify-content: center;
   }
   .perfect .perfect1 {
-    padding-bottom: 200px;
+    padding-bottom: 100px;
   }
   .perfect .perfect1 .iu {
     width: 330px;
@@ -700,8 +700,18 @@ p {
   background: #7777E9;
 }
 
+.title {
+  color: #DDDDFF;
+}
+
 .footer {
   background: #7777E9;
+}
+.footer h2 {
+  color: #DDDDFF;
+}
+.footer address {
+  color: #DDDDFF;
 }
 
 .hero .hero-img {
@@ -710,12 +720,24 @@ p {
   height: 65vh;
   width: 100%;
 }
+.hero .beginning1 {
+  color: #2F2F86;
+}
+.hero .beginning2 {
+  color: #2F2F86;
+}
 
 .history .night {
   background: url("../../../deploy/img/history/history.jpg");
   background-size: cover;
   height: 70vh;
   width: 100%;
+}
+.history .history1 {
+  color: #DDDDFF;
+}
+.history .history2 {
+  color: #DDDDFF;
 }
 
 .info {
@@ -727,6 +749,9 @@ p {
   width: 350px;
   height: 400px;
 }
+.info .left .left-text {
+  color: #4F4F77;
+}
 .info .right {
   padding-bottom: 200px;
 }
@@ -735,6 +760,23 @@ p {
   background-size: cover;
   width: 350px;
   height: 400px;
+}
+.info .right .right-text {
+  color: #4F4F77;
+}
+
+.recs h2 {
+  color: #2F2F86;
+}
+.recs p {
+  color: #2F2F86;
+}
+
+.perfect h2 {
+  color: #2F2F86;
+}
+.perfect p {
+  color: #2F2F86;
 }
 
 .genre {
@@ -745,12 +787,30 @@ p {
   background-size: cover;
   height: 70vh;
   width: 100%;
-  padding-top: 200px;
+}
+.genre h2 {
+  color: #DDDDFF;
+}
+.genre .first {
+  color: #DDDDFF;
+}
+.genre .last {
+  color: #DDDDFF;
 }
 
 .news {
   background: #DDDDFF;
   padding-bottom: 200px;
+  padding-top: 100px;
+}
+.news h2 {
+  color: #4F4F77;
+}
+.news h3 {
+  color: #4F4F77;
+}
+.news p {
+  color: #4F4F77;
 }
 
 .join .join-img {
@@ -758,4 +818,10 @@ p {
   background-size: cover;
   height: 50vh;
   width: 100%;
+}
+.join h2 {
+  color: #fff;
+}
+.join p {
+  color: #fff;
 }

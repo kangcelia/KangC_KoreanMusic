@@ -1,10 +1,19 @@
 .genre {
+    background: $blueberry;
     .genre-img {
         background: url("../../../deploy/img/genre/genre.jpg");
         background-size: cover;
         height: 70vh;
         width: 100%;
-        padding-top: 200px;
     }
-    background: $blueberry;
+    
+    h2 {
+        color: $whitepurple;
+    }
+    .first {
+        color: $whitepurple;
+    }
+    .last {
+        color: $whitepurple;
+    }
 }
