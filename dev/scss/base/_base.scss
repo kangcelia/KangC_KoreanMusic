@@ -81,22 +81,16 @@ main {
 	@include md {
 		.night {
 			position: relative;
-			width: 100%
+			text-align: center;
 		}
 		
 		.history1 {
 			position: absolute;
-			top: 200px;
-			left: 200px;
-			width: 50%
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
 		}
 
-		.history2 {
-			position: absolute;
-			top: 500px;
-			left: 200px;
-			width: 50%
-		}
 	}
 }
 
@@ -332,16 +326,15 @@ main {
 
 	@include md {
 		.join-img {
-			padding-top: 300px;
 			position: relative;
-			width: 100%
+			text-align: center;
 		}
 
 		.community {
 			position: absolute;
-			top: 500px;
-			left: 500px;
-			width: 500px;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
 		}
 	}
 }

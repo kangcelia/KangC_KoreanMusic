@@ -417,19 +417,13 @@ main {
 @media (min-width: 768px) {
   .history .night {
     position: relative;
-    width: 100%;
+    text-align: center;
   }
   .history .history1 {
     position: absolute;
-    top: 200px;
-    left: 200px;
-    width: 50%;
-  }
-  .history .history2 {
-    position: absolute;
-    top: 500px;
-    left: 200px;
-    width: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 
@@ -628,15 +622,14 @@ main {
 }
 @media (min-width: 768px) {
   .join .join-img {
-    padding-top: 300px;
     position: relative;
-    width: 100%;
+    text-align: center;
   }
   .join .community {
     position: absolute;
-    top: 500px;
-    left: 500px;
-    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 
