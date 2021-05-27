@@ -686,3 +686,7 @@ p {
 .section-title {
   font-weight: 300;
 }
+
+.hero-img {
+  background: url("../../../deploy/img/hero/hero.jpg");
+}
