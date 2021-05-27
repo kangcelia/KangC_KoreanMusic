@@ -8,3 +8,15 @@
 @import "base/_normalize";
 @import "base/_base";
 @import "base/_typography";
+
+// Layout Styles
+@import "layout/_header";
+@import "layout/_footer";
+
+// Content Styles
+@import "content/_hero";
+@import "content/_history";
+@import "content/_info";
+@import "content/_genre";
+@import "content/_news";
+@import "content/_join";
