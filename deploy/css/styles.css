@@ -367,7 +367,7 @@ ul li {
 
 main {
   display: grid;
-  grid-template-areas: "header" "hero" "history" "info" "genre" "recs" "news" "join" "footer";
+  grid-template-areas: "header" "hero" "history" "info" "genre" "recs" "perfect" "news" "join" "footer";
 }
 
 .header {
