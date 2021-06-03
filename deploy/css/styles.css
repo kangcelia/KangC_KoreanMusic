@@ -691,12 +691,57 @@ p {
 
 .header {
   background: #7777E9;
+  align-items: center;
+  padding: 20px;
 }
 
 .title {
   color: #DDDDFF;
 }
 
+#nav-container ul {
+  display: none;
+  margin-bottom: 25px;
+}
+#nav-container ul li {
+  text-align: center;
+}
+#nav-container ul li a {
+  display: inline-block;
+  padding: 15px 0;
+  text-decoration: none;
+  background: grey;
+  width: 100%;
+  transition: 0.25s;
+  color: white;
+}
+#nav-container ul li a:hover {
+  background: #676767;
+}
+#nav-container ul li a:active {
+  background: #7777E9;
+}
+#nav-container ul li a:link, #nav-container ul li a:visited {
+  color: #4d4d4d;
+}
+
+@media (min-width: 1024px) {
+  #nav-container ul {
+    display: flex;
+    margin-bottom: 0;
+  }
+  #nav-container ul li {
+    align-items: center;
+  }
+  #nav-container ul li a {
+    background: none;
+    padding: 10px;
+  }
+
+  .burger-wrapper {
+    display: none;
+  }
+}
 .footer {
   background: #7777E9;
 }
