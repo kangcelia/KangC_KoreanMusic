@@ -1,61 +1,73 @@
 .header {
-    background: $blueberry;
+    left: 0;
+ 	position: fixed;
+ 	top: 0;
+ 	width: 100%;
+}
+
+> div {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
- 	padding: 20px;
-}
 
-.title {
-    color: $whitepurple;
-}
-
-#nav-container {
-    ul {
-        display: none;
-        margin-bottom: 25px;
+    #button-container {
+        padding: 10px;
+        text-align: right;
     }
-    ul li {
-        text-align: center;
 
-        a {
+    #burger-container {
+            align-items: center;
+ 			display: flex;
+ 			padding: 10px;
+
+ 			@include lg {
+ 				display: none !important;
+ 			}
+
+ 			i {
+ 				cursor: pointer;
+ 				font-size: rem-calc(30);
+ 			}
+ 	}
+}
+ 	
+ 	#nav-container {
+        background-color: $blueberry;
+        display: none;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        .nav-btns {
             display: inline-block;
-            padding: 15px 0;
             text-decoration: none;
-            background: grey;
+            margin: 0 auto;
+            color: $whitepurple;
+            padding: 20px 0;
             width: 100%;
-            transition: 0.25s;
-            color: white;
-
             &:hover {
-                background: darken(grey, 10%);
+                background: $darkpurple;
             }
-
             &:active {
                 background: $blueberry;
             }
-
-            &:link,
-            &:visited {
-                color: darken(grey, 20%);
+        }
+        ul li {
+            text-align: center;
+        }
+        @include lg {
+            background-color: $blueberry;
+            display: block !important;
+            position: unset;
+            width: auto;
+            .nav-btns {
+                color: $whitepurple;
+            }
+            ul {
+                display: flex;
+                align-items: center;
+            }
+            ul li {
+                margin: 0 20px;
             }
         }
     }
-}
-
-    @include lg {
- 	#nav-container {
- 		ul {
- 			display: flex;
- 			margin-bottom: 0;
- 		}
- 		ul li {
- 			align-items: center;
- 			a {
- 				background: none;
- 				padding: 10px;
- 			}
- 		}
- 	}
- 	.burger-wrapper {
- 		display: none;
- 	}
- }

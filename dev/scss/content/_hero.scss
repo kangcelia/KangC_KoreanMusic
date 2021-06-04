@@ -1,4 +1,10 @@
 .hero {
+    background: $blueberry;
+
+    .title {
+        color: $whitepurple;
+    }
+
     .hero-img {
         background: url("../../../deploy/img/hero/hero.jpg");
         background-size: cover;
@@ -7,9 +13,9 @@
     }
 
     .beginning1 {
-        color: $darkpurple;
+        color: $whitepurple;
     }
     .beginning2 {
-        color: $darkpurple;
+        color: $whitepurple;
     }
 }
