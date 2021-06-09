@@ -425,24 +425,27 @@ main {
 .info {
   grid-area: info;
 }
-.info ul {
-  display: grid;
-}
 @media (min-width: 768px) {
   .info ul {
-    grid-template-columns: 700px;
-    grid-gap: 70px;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
   }
-  .info .left {
-    padding-top: 200px;
+  .info .info1-img {
+    grid-column: 2/3;
+    grid-row: 1/2;
   }
-  .info .right img {
-    width: 300px;
-    float: right;
+  .info .left-text {
+    grid-column: 3/4;
+    grid-row: 1/2;
   }
-  .info .right .right-text {
-    display: inline;
+  .info .info2-img {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  .info .right-text {
+    grid-column: 3/4;
+    grid-row: 2/3;
   }
 }
 
@@ -629,21 +632,20 @@ main {
 }
 @media (min-width: 768px) {
   .footer ul {
-    grid-template-columns: 1500px;
-    justify-content: center;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(3, 1fr);
   }
-  .footer .thanks h2 {
-    text-align: left;
-    padding-top: 100px;
+  .footer .thanks {
+    grid-column: 2/3;
+    grid-row: 2/3;
   }
-  .footer .find h2 {
-    text-align: center;
+  .footer .find {
+    grid-column: 5/6;
+    grid-row: 2/3;
   }
-  .footer .find address {
-    text-align: center;
-  }
-  .footer .socials h2 {
-    text-align: right;
+  .footer .socials {
+    grid-column: 8/9;
+    grid-row: 2/3;
   }
 }
 

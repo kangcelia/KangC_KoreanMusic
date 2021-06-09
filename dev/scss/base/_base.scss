@@ -93,32 +93,32 @@ main {
 .info {
 	grid-area: info;
 
-	ul {
-		display: grid;
-	}
-
 	@include md {
-		ul{
-			grid-template-columns: 700px;
-			grid-gap: 70px;
-			justify-content: center;
+		ul {
+				display: grid;
+				grid-template-columns: repeat(4, 1fr);
+				grid-template-rows: repeat(2, 1fr);
 		}
-
-		.left {
-			padding-top: 200px;
-			
-			
-		}
-
-		.right {
-			img {
-				width: 300px;
-				float: right;
+			.info1-img {
+				grid-column: 2 / 3;
+				grid-row: 1 / 2;
 			}
+	
+			.left-text {
+				grid-column: 3 / 4;
+				grid-row: 1 / 2;
+			}
+	
+			.info2-img {
+				grid-column: 2 / 3;
+				grid-row: 2 / 3;
+			}
+
 			.right-text {
-				display: inline;
+				grid-column: 3 / 4;
+				grid-row: 2 / 3;
 			}
-		}
+		
 	}
 }
 
@@ -340,30 +340,23 @@ main {
     @include md {
 
         ul {
-            grid-template-columns: 1500px;
-            justify-content: center;
+            grid-template-columns: repeat(9, 1fr);
+			grid-template-rows: repeat(3, 1fr);
         }
 
 		.thanks {
-			h2 {
-				text-align: left;
-				padding-top: 100px;
-			}
+			grid-column: 2 / 3;
+			grid-row: 2 / 3;
 		}
 
         .find {
-            h2 {
-				text-align: center;
-			}
-			address {
-				text-align: center;
-			}
+            grid-column: 5 / 6;
+			grid-row: 2 / 3;
         }
 
 		.socials {
-			h2 {
-				text-align: right;
-			}
+			grid-column: 8 / 9;
+			grid-row: 2 / 3;
 		}
     }
 }
