@@ -45,6 +45,21 @@ main {
 		display: grid;
 	}
 
+	text-align: center;
+
+		.title {
+			padding-top: 100px;
+			padding-bottom: 30px;
+		} 
+		.beginning1 {
+			padding-top: 100px;
+			padding-bottom: 30px;
+		}
+
+		.beginning2 {
+			padding-bottom: 100px;
+		}
+
 	@include md {
 		text-align: center;
 
@@ -73,6 +88,17 @@ main {
 	ul {
 		display: grid;
 	}
+	.night {
+		position: relative;
+		text-align: center;
+	}
+	
+	.history1 {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
 
 	@include md {
 		.night {
@@ -96,28 +122,23 @@ main {
 	@include md {
 		ul {
 				display: grid;
-				grid-template-columns: repeat(4, 1fr);
+				grid-template-columns: repeat(3, 1fr);
 				grid-template-rows: repeat(2, 1fr);
 		}
-			.info1-img {
+			.left {
 				grid-column: 2 / 3;
 				grid-row: 1 / 2;
+				padding-bottom: 50px;
 			}
 	
-			.left-text {
-				grid-column: 3 / 4;
-				grid-row: 1 / 2;
-			}
+			
 	
-			.info2-img {
+			.right {
 				grid-column: 2 / 3;
 				grid-row: 2 / 3;
 			}
 
-			.right-text {
-				grid-column: 3 / 4;
-				grid-row: 2 / 3;
-			}
+			
 		
 	}
 }
@@ -212,7 +233,7 @@ main {
 }
 
 .perfect {
-	grid-area: recs;
+	grid-area: perfect;
 
 	ul {
 		display: grid;
@@ -221,7 +242,7 @@ main {
 	@include md {
 		h2 {
 			text-align: center;
-			padding-top: 500px;
+			padding-top: 50px;
 		}
 
 		p {
@@ -315,6 +336,18 @@ main {
 		width: 100%;
 	}
 
+	.join-img {
+		position: relative;
+		text-align: center;
+	}
+
+	.community {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
 	@include md {
 		.join-img {
 			position: relative;
@@ -335,6 +368,25 @@ main {
 
     ul {
         display: grid;
+		
+            grid-template-columns: repeat(9, 1fr);
+			grid-template-rows: repeat(3, 1fr);
+        
+
+		.thanks {
+			grid-column: 2 / 3;
+			grid-row: 2 / 3;
+		}
+
+        .find {
+            grid-column: 5 / 6;
+			grid-row: 2 / 3;
+        }
+
+		.socials {
+			grid-column: 8 / 9;
+			grid-row: 2 / 3;
+		}
     }
 
     @include md {

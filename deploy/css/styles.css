@@ -376,12 +376,24 @@ main {
 
 .hero {
   grid-area: hero;
+  text-align: center;
 }
 .hero img {
   width: 100%;
 }
 .hero ul {
   display: grid;
+}
+.hero .title {
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+.hero .beginning1 {
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+.hero .beginning2 {
+  padding-bottom: 100px;
 }
 @media (min-width: 768px) {
   .hero {
@@ -409,6 +421,16 @@ main {
 .history ul {
   display: grid;
 }
+.history .night {
+  position: relative;
+  text-align: center;
+}
+.history .history1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 @media (min-width: 768px) {
   .history .night {
     position: relative;
@@ -428,23 +450,16 @@ main {
 @media (min-width: 768px) {
   .info ul {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
   }
-  .info .info1-img {
+  .info .left {
     grid-column: 2/3;
     grid-row: 1/2;
+    padding-bottom: 50px;
   }
-  .info .left-text {
-    grid-column: 3/4;
-    grid-row: 1/2;
-  }
-  .info .info2-img {
+  .info .right {
     grid-column: 2/3;
-    grid-row: 2/3;
-  }
-  .info .right-text {
-    grid-column: 3/4;
     grid-row: 2/3;
   }
 }
@@ -522,7 +537,7 @@ main {
 }
 
 .perfect {
-  grid-area: recs;
+  grid-area: perfect;
 }
 .perfect ul {
   display: grid;
@@ -530,7 +545,7 @@ main {
 @media (min-width: 768px) {
   .perfect h2 {
     text-align: center;
-    padding-top: 500px;
+    padding-top: 50px;
   }
   .perfect p {
     text-align: center;
@@ -611,6 +626,16 @@ main {
 .join img {
   width: 100%;
 }
+.join .join-img {
+  position: relative;
+  text-align: center;
+}
+.join .community {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 @media (min-width: 768px) {
   .join .join-img {
     position: relative;
@@ -629,6 +654,20 @@ main {
 }
 .footer ul {
   display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+.footer ul .thanks {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+.footer ul .find {
+  grid-column: 5/6;
+  grid-row: 2/3;
+}
+.footer ul .socials {
+  grid-column: 8/9;
+  grid-row: 2/3;
 }
 @media (min-width: 768px) {
   .footer ul {
@@ -798,26 +837,39 @@ p {
 .info {
   background: #DDDDFF;
 }
+.info .left {
+  padding-top: 100px;
+}
 .info .left .info1-img {
   background: url("../../../deploy/img/info/info1.jpg") no-repeat;
   background-size: cover;
   width: 350px;
   height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .info .left .left-text {
+  padding-top: 10px;
   color: #4F4F77;
+  text-align: center;
 }
 .info .right {
-  padding-bottom: 200px;
+  padding-bottom: 100px;
 }
 .info .right .info2-img {
   background: url("../../../deploy/img/info/info2.jpg") no-repeat;
   background-size: cover;
   width: 350px;
   height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .info .right .right-text {
+  padding-top: 10px;
   color: #4F4F77;
+  text-align: center;
 }
 
 .recs h2 {

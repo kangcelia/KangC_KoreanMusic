@@ -1,15 +1,21 @@
 .info {
     background: $whitepurple;
     .left {
+        padding-top: 100px;
         .info1-img {
             background: url("../../../deploy/img/info/info1.jpg") no-repeat;
             background-size: cover;
             width: 350px;
             height: 400px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .left-text {
+            padding-top: 10px;
             color: $dustpurple;
+            text-align: center;
         }
     }
     
@@ -19,11 +25,16 @@
             background-size: cover;
             width: 350px;
             height: 400px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .right-text {
+            padding-top: 10px;
             color: $dustpurple;
+            text-align: center;
         }
-        padding-bottom: 200px;
+        padding-bottom: 100px;
     }
 }
